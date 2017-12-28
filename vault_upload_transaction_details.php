@@ -7,10 +7,8 @@
                         
 
 <script type="text/javascript" src="js/vault.js"></script>
-
-<div class="container theme-showcase" role="main">
-
-    <header class="page-header">
+    <div class="container theme-showcase" role="main">
+        <header class="page-header">
         <h2>Vault</h2>
     </header>
     <div class="row">
