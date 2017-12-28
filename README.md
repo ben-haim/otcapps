@@ -3,7 +3,7 @@ OTC
 
 > WARNING: OTC are intended for experimenting and learning, NOT for a production environment.
 
-![Image of Yobi](http://www.primechain.in/img/github_yobiapps.png)
+![Image of Yobi](http://www.primechain.in/img/github_otc.png)
 
 OTC are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain). The OTC project is maintained by [Primechain Technologies Pvt. Ltd.](http://www.primechain.in).
 
@@ -19,9 +19,9 @@ OTC are automatically installed during the [YobiChain](https://github.com/Primec
 
 Creating an account
 ---------------------
-* Visit `http://<IP Address>/yobiapps/register.php` and enter your name, username and password.
+* Visit `http://<IP Address>/otc/register.php` and enter your name, username and password.
 * Your account will be created.
-* You will automatially be taken to the sigin page at `http://<IP Address>/yobiapps/login.php`
+* You will automatially be taken to the sigin page at `http://<IP Address>/otc/login.php`
 * Enter your username and password to login.
 
 
@@ -30,7 +30,7 @@ Vault
 
 1. Vault is a simple blockchain powered document storage and retrieval system.
 
-2. To access Vault visit `http://<IP Address>/yobiapps/vault_upload.php`
+2. To access Vault visit `http://<IP Address>/otc/vault_upload.php`
 
 3. Select a file to upload, add a description and click upload.
 
@@ -46,22 +46,22 @@ Vault
   + Description 
   + Download Link
 
-6. To view / search uploads, visit `http://<IP Address>/yobiapps/vault_download.php`
+6. To view / search uploads, visit `http://<IP Address>/otc/vault_download.php`
 
 Contract
 ------------
 
 1. Contract is a simple blockchain powered system for digitally signng contracts.
 
-2. To upload a contract, visit `http://<IP Address>/yobiapps/contract_upload.php`
+2. To upload a contract, visit `http://<IP Address>/otc/contract_upload.php`
 
-3. To invite signees, visit `http://<IP Address>/yobiapps/contract_invite.php`
+3. To invite signees, visit `http://<IP Address>/otc/contract_invite.php`
 
-4. To view contracts, visit `http://<IP Address>/yobiapps/contracts_history.php`
+4. To view contracts, visit `http://<IP Address>/otc/contracts_history.php`
 
-5. To sign a contract for which you hve been invited, visit `http://<IP Address>/yobiapps/contract_sign.php`
+5. To sign a contract for which you hve been invited, visit `http://<IP Address>/otc/contract_sign.php`
 
-6. To view details of a particular contract, visit `http://<IP Address>/yobiapps/contract_view_details.php`
+6. To view details of a particular contract, visit `http://<IP Address>/otc/contract_view_details.php`
 
 
 YobiWallet
@@ -69,9 +69,9 @@ YobiWallet
 
 1. YobiWallet is a simple blockchain powered wallet for otcs, a smart asset.
 
-2. To send otcs, visit `http://<IP Address>/yobiapps/ic_send_money.php`
+2. To send otcs, visit `http://<IP Address>/otc/ic_send_money.php`
 
-3. To view your transactions, visit `http://<IP Address>/yobiapps/ic_view_history.php`
+3. To view your transactions, visit `http://<IP Address>/otc/ic_view_history.php`
 
 Live demo
 ---------
