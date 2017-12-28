@@ -3,19 +3,16 @@ OTC
 
 > WARNING: OTC are intended for experimenting and learning, NOT for a production environment.
 
-![Image of Yobi](http://www.primechain.in/img/github_otc.png)
-
-OTC are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain). The OTC project is maintained by [Primechain Technologies Pvt. Ltd.](http://www.primechain.in).
 
 System Requirements
 -------------------
 
-An instance of [YobiChain](https://github.com/Primechain/yobichain)
+An instance of [OTC](https://github.com/ychaim/otc_chaim)
 
 Installation
 ------------
 
-OTC are automatically installed during the [YobiChain](https://github.com/Primechain/yobichain) setup.
+OTC are automatically installed during the setup.
 
 Creating an account
 ---------------------
@@ -64,28 +61,11 @@ Contract
 6. To view details of a particular contract, visit `http://<IP Address>/otc/contract_view_details.php`
 
 
-YobiWallet
+Wallet
 ------------
 
-1. YobiWallet is a simple blockchain powered wallet for otcs, a smart asset.
+1. Wallet is a simple blockchain powered wallet for otcs, a smart asset.
 
 2. To send otcs, visit `http://<IP Address>/otc/ic_send_money.php`
 
 3. To view your transactions, visit `http://<IP Address>/otc/ic_view_history.php`
-
-Live demo
----------
-Links to the live demo can be found here - [https://github.com/Primechain/yobichain](https://github.com/Primechain/yobichain).
-
-Planned roadmap
------
-- [ ] Secure messaging server
-
-
-Contributors
--------------
-A non-exhaustive list of contributors:
-* Sripathi Srinivasan (sripathi@primechain.in) [Project Lead]
-* Rohas Nagpal (rohas@primechain.in)
-* Sudin Baraokar (HEAD.SBICIC@sbi.co.in)
-* Shinam Arora (shinam@primechain.in)
