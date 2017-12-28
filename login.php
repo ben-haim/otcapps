@@ -72,7 +72,7 @@
 					</div>
 				</section>
 
-				<p class="text-center text-muted mt-md mb-md">&copy; Copyright 2017 Primechain Technologies Pvt. Ltd. All Rights Reserved.</p>
+				<p class="text-center text-muted mt-md mb-md">&copy; .</p>
 			</div>
 
 			<div class="col-md-4"></div>

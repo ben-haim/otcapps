@@ -1,12 +1,12 @@
 <?php
 
 	/**
-	 *  YOBICOIN PARAMETERS
+	 *  otc PARAMETERS
 	 */
 	class AssetParams
 	{
 		const INIT_QTY = 1000;
-		const ASSET_NAME = "yobicoin";
+		const ASSET_NAME = "otc";
 	}
 
 	/**
@@ -25,7 +25,7 @@
 		public static function init(){
 	        self::$hostName = $_SERVER['SERVER_ADDR'];
 			self::$PORT = "2750";
-			self::$CHAIN_NAME = "Yobichain";
+			self::$CHAIN_NAME = "otc";
 			self::$TX_URL_PREFIX = "http://".self::$hostName.":".self::$PORT."/".self::$CHAIN_NAME."/tx/";
 			self::$BLOCK_URL_PREFIX = "http://".self::$hostName.":".self::$PORT."/".self::$CHAIN_NAME."/block/";
 			self::$ADDRESS_URL_PREFIX = "http://".self::$hostName.":".self::$PORT."/".self::$CHAIN_NAME."/address/";
@@ -41,7 +41,7 @@
 	class WebServerParams
 	{		
 		public static $hostName;				// IP address or Host Name of the Web Server 
-		const PRIMECHAIN_ROOT_DIR = "yobiapps";	// Root directory of Primechain
+		const PRIMECHAIN_ROOT_DIR = "otcapps";	// Root directory of Primechain
 
 		public static function init(){
 	        self::$hostName = $_SERVER['SERVER_ADDR'];
@@ -58,8 +58,8 @@
 		const HOST_NAME = "localhost";
 		const RPC_PORT = "6820";
 		const RPC_USER = "multichainrpc";
-		const RPC_PASSWORD = "CYw4pp91TF3Tm8pNhgbu4hFgZiRQNccbCnGhHXRuhfee";
-		const MANAGER_ADDRESS = "1Mdqxe9WaiQLKnCorD7Ncu2VxZq9Cefn9qPKR4";
+		const RPC_PASSWORD = "CYw4pp91TF3Tm8pNhgbu4hFgZiRQNccbCnGhHXRuhfee1";
+		const MANAGER_ADDRESS = "1Mdqxe9WaiQLKnCorD7Ncu2VxZq9Cefn9qPKR41";
 		
 		const USER_STREAMS = array(
 				"USERS_CREDENTIALS" => "users_credentials",

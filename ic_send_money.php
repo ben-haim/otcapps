@@ -5,7 +5,7 @@
 	include_once 'header-logged-in.php';
 ?>
 
-<script src="js/yobicoin.js" type="text/javascript"></script>
+<script src="js/otc.js" type="text/javascript"></script>
 
 <script>
 
@@ -54,7 +54,7 @@
         <div class="col-md-10">
             <section class="panel panel-primary">
                 <header class="panel-heading">
-                    <h2 class="panel-title">Send Yobicoins with Message</h2>
+                    <h2 class="panel-title">Send otcs with Message</h2>
                 </header>
                 <div class="panel-body">
                     <form>
@@ -76,7 +76,7 @@
                         <br/>
 
                         <div class="row form-group">
-                            <label class="col-sm-3 control-label"><strong>Yobicoins </strong></label>
+                            <label class="col-sm-3 control-label"><strong>otcs </strong></label>
                             <div class="col-sm-9">
                                 <input id="txtUnitsSWM" type="number" step="any" placeholder="" class="form-control" value="1" width=30 />
                             </div>

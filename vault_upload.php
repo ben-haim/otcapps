@@ -9,7 +9,7 @@
 
 <div class="container theme-showcase" role="main">
 
-    <h2>PrimeVault</h2>
+    <h2>Vault</h2>
     <br>
     <div class="row">
         <div class="col-md-10">

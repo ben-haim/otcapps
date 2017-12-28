@@ -350,9 +350,9 @@
 
 
 		/**
-		 *  Send Yobicoins to user
+		 *  Send otcs to user
 		 */
-		public function sendInitYobicoins($userName, $qty=AssetParams::INIT_QTY)
+		public function sendInitotcs($userName, $qty=AssetParams::INIT_QTY)
 		{
 			try
 			{

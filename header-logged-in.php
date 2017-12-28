@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>YobiApps</title>
+    <title>OTC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,19 +44,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">YobiApps</a>
+          <a class="navbar-brand" href="#">OTC</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PrimeVault <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vault <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="vault_upload.php">Upload</a></li>
                 <li><a href="vault_download.php">Download</a></li>
               </ul>
             </li>
             <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PrimeContract <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contract <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="contract_upload.php">Create Contract</a></li>
                 <li><a href="contracts_history.php">History</a></li>

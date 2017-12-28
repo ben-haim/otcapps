@@ -54,8 +54,8 @@
 			$dbHelper->grantPermissions($userName, $permissions);
 			
 
-			// Sending Yobicoin to user
-			$dbHelper->sendInitYobicoins($userName);
+			// Sending otc to user
+			$dbHelper->sendInitotcs($userName);
 
 			header("location:login.php?msg=7");
 			// echo "<p class='lead'><b><font color='blue'>Account registration successful. Please login to continue.</font></b></p>";

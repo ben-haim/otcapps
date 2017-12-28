@@ -1,11 +1,11 @@
-YobiApps
+OTC
 =========
 
-> WARNING: YobiApps are intended for experimenting and learning, NOT for a production environment.
+> WARNING: OTC are intended for experimenting and learning, NOT for a production environment.
 
 ![Image of Yobi](http://www.primechain.in/img/github_yobiapps.png)
 
-YobiApps are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain). The YobiApps project is maintained by [Primechain Technologies Pvt. Ltd.](http://www.primechain.in).
+OTC are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain). The OTC project is maintained by [Primechain Technologies Pvt. Ltd.](http://www.primechain.in).
 
 System Requirements
 -------------------
@@ -15,7 +15,7 @@ An instance of [YobiChain](https://github.com/Primechain/yobichain)
 Installation
 ------------
 
-YobiApps are automatically installed during the [YobiChain](https://github.com/Primechain/yobichain) setup.
+OTC are automatically installed during the [YobiChain](https://github.com/Primechain/yobichain) setup.
 
 Creating an account
 ---------------------
@@ -25,12 +25,12 @@ Creating an account
 * Enter your username and password to login.
 
 
-PrimeVault
+Vault
 ------------
 
-1. PrimeVault is a simple blockchain powered document storage and retrieval system.
+1. Vault is a simple blockchain powered document storage and retrieval system.
 
-2. To access PrimeVault visit `http://<IP Address>/yobiapps/vault_upload.php`
+2. To access Vault visit `http://<IP Address>/yobiapps/vault_upload.php`
 
 3. Select a file to upload, add a description and click upload.
 
@@ -48,10 +48,10 @@ PrimeVault
 
 6. To view / search uploads, visit `http://<IP Address>/yobiapps/vault_download.php`
 
-PrimeContract
+Contract
 ------------
 
-1. PrimeContract is a simple blockchain powered system for digitally signng contracts.
+1. Contract is a simple blockchain powered system for digitally signng contracts.
 
 2. To upload a contract, visit `http://<IP Address>/yobiapps/contract_upload.php`
 
@@ -67,9 +67,9 @@ PrimeContract
 YobiWallet
 ------------
 
-1. YobiWallet is a simple blockchain powered wallet for Yobicoins, a smart asset.
+1. YobiWallet is a simple blockchain powered wallet for otcs, a smart asset.
 
-2. To send Yobicoins, visit `http://<IP Address>/yobiapps/ic_send_money.php`
+2. To send otcs, visit `http://<IP Address>/yobiapps/ic_send_money.php`
 
 3. To view your transactions, visit `http://<IP Address>/yobiapps/ic_view_history.php`
 
